@@ -1,19 +1,21 @@
-import { useState } from "react";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from './assets/vite.svg'
+import heroImg from './assets/hero.png'
+import './App.css'
 
-const PenghitungStok = ({namaBarang,stokAwal}) =>{
-  
-  const [sisaStok,setSisaStok] = useState(stokAwal);
-
-  const kurangiStok = ()=>{
-    if (sisaStok > 0){
-      setSisaStok(sisaStok - 1)
-    }
+function App() {
+  const [angka,setAngka] = useState(0)
+  const tambahAngka =()=> {
+    setAngka(angka + 1)
   }
-  return (<>
-    <h3>{namaBarang}</h3>
-    <p>Sisa Stok:{sisaStok} </p>
-    <button onClick={kurangiStok} >Kurangi Stok</button>
-  </>)
+  return (
+    <div>
+     <p>Total Klik: {angka}</p>
+
+     <button onClick={tambahAngka} > Klik</button>
+    </div>
+  )
 }
 
-export default PenghitungStok
+export default App
