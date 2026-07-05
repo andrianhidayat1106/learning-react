@@ -5,15 +5,15 @@ import heroImg from './assets/hero.png'
 import './App.css'
 
 function App() {
-  const [angka,setAngka] = useState(0)
-  const tambahAngka =()=> {
+  const [angka, setAngka] = useState(0)
+  const tambahAngka = () => {
     setAngka(angka + 1)
   }
   return (
     <div>
-     <p>Total Klik: {angka}</p>
+      <p>Total Klik: {angka}</p>
 
-     <button onClick={tambahAngka} > Klik</button>
+      <button onClick={tambahAngka} > Klik</button>
     </div>
   )
 }
