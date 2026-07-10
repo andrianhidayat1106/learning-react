@@ -57,7 +57,7 @@ export default function State() {
          barang.map((item) => (
     <li key={item.id}>{item.nama} | {item.count}</li>
 ))
-            }
+            } 
             
         </ul>
     </>

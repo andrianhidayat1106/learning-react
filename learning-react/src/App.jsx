@@ -7,6 +7,7 @@ import Render from "./pages/Render";
 import SnapShoot from "./pages/SnapShoot";
 import State from "./pages/State";
 import Immer from "./pages/ExampleWithLibrary/Immer";
+import StateNoteApp from "./pages/Reducer/State/StateNoteApp";
 
 
 export default function App() {
@@ -22,6 +23,9 @@ export default function App() {
       <Route path="/snap-shoot" element={<SnapShoot ></SnapShoot>}></Route>
       <Route path="/state" element={<State ></State>}></Route>
       <Route path="/lib/immer" element={<Immer ></Immer>}></Route>
+      <Route path="/reducer/immer" element={<Immer ></Immer>}></Route>
+      <Route path="/reducer/react" element={<Immer ></Immer>}></Route>
+      <Route path="/reducer/state" element={<StateNoteApp ></StateNoteApp>}></Route>
     </Routes>
   </BrowserRouter >
 }
