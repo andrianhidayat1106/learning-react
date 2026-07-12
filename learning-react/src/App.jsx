@@ -10,6 +10,10 @@ import Immer from "./pages/ExampleWithLibrary/Immer";
 import StateNoteApp from "./pages/Reducer/State/StateNoteApp";
 import ReducerNoteApp from "./pages/Reducer/Reducer/ReducerNoteApp";
 import ImmerNoteApp from "./pages/Reducer/Immer/ImmerNoteApp";
+import Context from "./pages/Context/Context";
+import ContextState from "./pages/Context/ContextState";
+import ContextReduce from "./pages/Context/ContextReduce";
+import Ref from "./pages/Ref";
 
 
 export default function App() {
@@ -28,6 +32,11 @@ export default function App() {
       <Route path="/reducer/immer" element={<ImmerNoteApp ></ImmerNoteApp>}></Route>
       <Route path="/reducer" element={<ReducerNoteApp ></ReducerNoteApp>}></Route>
       <Route path="/reducer/state" element={<StateNoteApp ></StateNoteApp>}></Route>
+      <Route path="/context" element={<Context ></Context>}></Route>
+      <Route path="/context-state" element={<ContextState ></ContextState>}></Route>
+      <Route path="/context-reduce" element={<ContextReduce ></ContextReduce>}></Route>
+      <Route path="/ref" element={<Ref ></Ref>}></Route>
+
     </Routes>
   </BrowserRouter >
 }
