@@ -1,0 +1,47 @@
+[
+  {
+    "id": "PROD-001",
+    "nama_produk": "Kopi Susu Gula Aren",
+    "kategori": "Minuman",
+    "harga": 22000,
+    "stok": 45,
+    "tersedia": true,
+    "rating": 4.8
+  },
+  {
+    "id": "PROD-002",
+    "nama_produk": "Croissant Cokelat",
+    "kategori": "Makanan",
+    "harga": 18500,
+    "stok": 12,
+    "tersedia": true,
+    "rating": 4.6
+  },
+  {
+    "id": "PROD-003",
+    "nama_produk": "Tumbler Stainless Steel 500ml",
+    "kategori": "Peralatan Rumah",
+    "harga": 135000,
+    "stok": 85,
+    "tersedia": true,
+    "rating": 4.9
+  },
+  {
+    "id": "PROD-004",
+    "nama_produk": "Kaos Polos Cotton Combed 30s",
+    "kategori": "Pakaian",
+    "harga": 55000,
+    "stok": 0,
+    "tersedia": false,
+    "rating": 4.4
+  },
+  {
+    "id": "PROD-005",
+    "nama_produk": "Earphone Wireless TWS Bluetooth",
+    "kategori": "Elektronik",
+    "harga": 210000,
+    "stok": 23,
+    "tersedia": true,
+    "rating": 4.7
+  }
+]

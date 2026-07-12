@@ -14,6 +14,8 @@ import Context from "./pages/Context/Context";
 import ContextState from "./pages/Context/ContextState";
 import ContextReduce from "./pages/Context/ContextReduce";
 import Ref from "./pages/Ref";
+import Effect from "./pages/Effect";
+import Memo from "./pages/Memo";
 
 
 export default function App() {
@@ -36,6 +38,8 @@ export default function App() {
       <Route path="/context-state" element={<ContextState ></ContextState>}></Route>
       <Route path="/context-reduce" element={<ContextReduce ></ContextReduce>}></Route>
       <Route path="/ref" element={<Ref ></Ref>}></Route>
+      <Route path="/effect" element={<Effect ></Effect>}></Route>
+      <Route path="/memo" element={<Memo ></Memo>}></Route>
 
     </Routes>
   </BrowserRouter >
